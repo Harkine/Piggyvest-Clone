@@ -83,3 +83,20 @@ a{
     text-decoration: none;
     font-size: .900rem;
 }
+@media only screen  and (max-width:1024px) and (min-width:280px) {
+    body{
+        height: 42rem;
+    }
+    .formBox{
+        width: 18rem;
+        padding: 1.5rem .2rem;
+    }
+    input{
+        padding: 1rem 2rem;
+        margin-top: .8rem;
+        width: 14.5rem;
+    }
+    .text h3{
+        font-size: 1.2rem;
+    }
+}
