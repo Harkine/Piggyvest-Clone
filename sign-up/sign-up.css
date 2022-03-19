@@ -97,3 +97,7 @@ a{
     text-decoration: none;
     font-size: .875rem;
 }
+
+@media only screen  and (max-width:1024px) and (min-width:280px) {
+    
+}
