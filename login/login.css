@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/piggyvestLoginBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 39.05rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.ctn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.2rem;
+}
+.formBox{
+    margin-top: 3rem;
+    background-color: white;
+    padding: 1.5rem;
+    width: 28rem;
+    border-radius: 1rem 1rem 1rem 0rem;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+header{
+    margin: 0.3rem 0;
+}
+ .text h3{
+     color: #083e9e;
+     font-size: 1.5rem;
+}
+.text p{
+    color: #4a5568;
+    font-size: 0.875rem;
+}
+form input{
+    margin-bottom: 2rem;
+}
+form button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+input{
+    padding: 1.1rem;
+    background-color: rgb(229 231 235);
+    border: none;
+    border-radius: 0.2rem;
+}
+button{
+    padding: 1rem;
+    background-color: #0d60d8;
+    color: #e2e8f0;
+    border: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.2rem;
+    font-weight: bold;
+}
+label{
+    margin-top: 1rem;
+    color: #4a5568;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
