@@ -76,3 +76,10 @@ label{
     font-size: 0.75rem;
     font-weight: bold;
 }
+a{
+    display: flex;
+    color: white;
+    margin-top: 2.5rem;
+    text-decoration: none;
+    font-size: .900rem;
+}

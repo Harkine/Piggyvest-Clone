@@ -24,7 +24,7 @@ header{
 .formbox{
     background-color: white;
     padding: 2rem;
-    width: 27rem;
+    width: 21.5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -45,9 +45,9 @@ button{
     background-color: rgb(27, 27, 189);
     color: white;
     border-radius: 0.5rem;
-    padding: 1.2rem 5rem;
+    padding: 1rem 4.1rem;
     border: none;
-    width: 23rem;
+    width: 16rem;
     font-weight: bold;
 
 }
