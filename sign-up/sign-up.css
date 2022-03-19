@@ -99,5 +99,13 @@ a{
 }
 
 @media only screen  and (max-width:1024px) and (min-width:280px) {
-    
+     h3{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    p{
+        font-size: .8;
+        text-align: center;
+    }
+   
 }
