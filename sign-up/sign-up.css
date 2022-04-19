@@ -37,8 +37,6 @@ form{
     display: flex;
     margin-top: 0.5rem;
     flex-direction: column;
-   
-    
 }
 button{
     margin-top: 3rem;
@@ -47,9 +45,8 @@ button{
     border-radius: 0.5rem;
     padding: 1rem 4.1rem;
     border: none;
-    width: 16rem;
+    width: 17.2rem;
     font-weight: bold;
-
 }
 .xt{
     display: flex;
@@ -67,6 +64,7 @@ p{
     display: flex;
     color: gray;
     margin-top: 0.5rem;
+    text-align: center;
 }
 input{
     background-color: rgb(229, 236, 247);
@@ -104,7 +102,7 @@ a{
         text-align: center;
     }
     p{
-        font-size: .4;
+        font-size: .7rem;
         text-align: center;
     }
    
