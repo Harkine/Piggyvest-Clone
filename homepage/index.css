@@ -474,9 +474,9 @@ nav a{
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   
-  -moz-animation: my-animation 20s linear infinite;
-  -webkit-animation: my-animation 20s linear infinite;
-  animation: my-animation 20s linear infinite;
+  -moz-animation: my-animation 35s linear infinite;
+  -webkit-animation: my-animation 35s linear infinite;
+  animation: my-animation 35s linear infinite;
 }
 
 /* for Firefox */
@@ -500,7 +500,7 @@ nav a{
   to {
     -moz-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
+    transform: translateY(-190%);
   }
 }
 .msg-one{
@@ -578,6 +578,32 @@ nav a{
  .msg-three .avi img, h4{
      margin: .3rem;
  }
+ .msg-four{
+    margin-bottom: 1rem;
+    background: #f7f9fa;
+    padding: 2rem;
+ }
+ .msg-four img{
+     height: 2rem;
+     border-radius: 1rem;
+ }
+ .msg-four h5{
+     float: right;
+     font-size: 12px;
+ }
+ .msg-four .avi{
+     display: flex;
+     margin-top: 1rem;
+ }
+ .msg-four p{
+     width: 25rem;
+     padding-left: 3rem;
+     font-size: 13px;
+ }
+ .msg-four .avi img, h4{
+     margin: .3rem;
+ }
+
 .custom{
     margin-top: 2rem;
     width: 25rem;
