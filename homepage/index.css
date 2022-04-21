@@ -495,12 +495,12 @@ nav a{
   from {
     -moz-transform: translateY(100%);
     -webkit-transform: translateY(100%);
-    transform: translateY(50%);
+    transform: translateY(80%);
   }
   to {
     -moz-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
-    transform: translateY(-190%);
+    transform: translateY(-250%);
   }
 }
 .msg-one{
@@ -800,7 +800,7 @@ nav a{
         margin-top:2rem ;
     }
     .one{
-        width: 19rem;
+        width: 20.1rem;
         left: 0%;
         margin-top: 4rem;
         margin-bottom: 2rem;
