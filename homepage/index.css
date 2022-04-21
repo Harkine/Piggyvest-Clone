@@ -1005,6 +1005,12 @@ nav a{
     .msg-three h5{
         float: none;
     }
+    .msg-four h5{
+        float: none;
+    }
+    .msg-four p{
+        width: auto;
+    }
     .custom{
         width: auto;
         margin-left: 0;
