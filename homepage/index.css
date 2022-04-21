@@ -396,7 +396,7 @@ nav a{
 }
 #box{
     display: flex;
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
     margin-top: 10rem;
 }
 .box-a h1{
@@ -458,9 +458,50 @@ nav a{
     justify-content: flex-start;
     margin-top: 3rem;
 }
+.scrollable{
+    border: 1px black;
+  border-radius: 1px;
+  height: 300px;
+  overflow: hidden;
+}
 .msgs{
     margin: 5rem;
     width: 30rem;
+    height: 100%;
+  
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 20s linear infinite;
+  -webkit-animation: my-animation 20s linear infinite;
+  animation: my-animation 20s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateY(100%); }
+  to { -moz-transform: translateY(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(50%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
 }
 .msg-one{
    margin-bottom: 1rem;
@@ -538,9 +579,10 @@ nav a{
      margin: .3rem;
  }
 .custom{
-    margin-top: 8rem;
+    margin-top: 2rem;
     width: 25rem;
     margin-left: 3rem;
+    margin-bottom: 5rem;
 }
 .custom .top h1{
     font-size: 2.2rem;
