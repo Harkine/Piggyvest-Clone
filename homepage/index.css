@@ -407,6 +407,10 @@ nav a{
 .box-a{
     background: #0d60d8;
     height: 30.75rem;
+    width: auto;
+}
+.box-b{
+    width: auto;
 }
 .box-a a{
     font-weight: bold;
