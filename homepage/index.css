@@ -398,6 +398,7 @@ nav a{
     display: flex;
     margin-bottom: 7rem;
     margin-top: 10rem;
+    width: 100%;
 }
 .box-a h1{
     color: white;
@@ -406,11 +407,14 @@ nav a{
 }
 .box-a{
     background: #0d60d8;
-    height: 30.75rem;
-    width: auto;
+    height: 36.85rem;
+    width: 50%;
 }
 .box-b{
-    width: auto;
+    width: 50%;
+}
+.box-b img{
+    width: 100%;
 }
 .box-a a{
     font-weight: bold;
@@ -960,6 +964,10 @@ nav a{
         justify-content: center;
         text-align: center;
         align-items: center;
+        width: auto;
+    }
+    .box-b{
+        width: auto;
     }
     .box-a p{
         font-size: 1.1rem;
