@@ -1,5 +1,7 @@
 # Piggyvest clone 🔥 
 > [Awe Akinsola Stephen](https://ng.linkedin.com/in/awe-akinsola-stephen-b77254199)
+> [Link to project](https://harkine.github.io/Piggyvest-Clone/homepage/index.html)
+
 
 ## Technologies
 - HTML5
