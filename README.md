@@ -6,7 +6,7 @@
 - CSS
 
 ## Demo
-<video src='WhatsApp Video 2022-05-01 at 9.38.33 PM.mp4'></video>
+![Mobile View 1](ezgif.com-gif-maker.gif)
 
 | Mobile View  | Desktop View |
 | ------------ | -----------  |
