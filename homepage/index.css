@@ -428,7 +428,7 @@ nav a{
 }
 #box{
     display: flex;
-     margin-bottom: 7rem;
+    margin-bottom: 7rem;
     margin-top: 10rem;
 }
 .box-a a i{
@@ -449,9 +449,9 @@ nav a{
     position: relative;
 }
 .box-a{
-    width: 60%;
     background-color: #0d60d8;
-    height: 31.5rem;
+    height: 31rem;
+    width: 50rem;
 }
 .box-a p{
     color: white;
@@ -477,8 +477,12 @@ nav a{
     transform-origin: left;
     transform: scaleX(1);
 }
+.box-b{
+    height: 31rem;
+}
 .box-b img{
-    height: 31.5rem;
+    width: 34rem;
+    height: 31rem;
 }
 #comments{
     display: flex;
