@@ -6,7 +6,7 @@
 - CSS
 
 ## Demo
-<video src='WhatsApp Video 2022-05-01 at 9.38.33 PM.mp4' width=180 />
+<video src='WhatsApp Video 2022-05-01 at 9.38.33 PM.mp4'></video>
 
 | Mobile View  | Desktop View |
 | ------------ | -----------  |
