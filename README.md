@@ -5,8 +5,6 @@
 - HTML5
 - CSS
 
-## Demo
-![Mobile View 1](ezgif.com-gif-maker.gif)
 
 | Mobile View  | Desktop View |
 | ------------ | -----------  |
